@@ -36,6 +36,3 @@ request(url, function (error, response, body) {
     console.error(`Error requesting ${url}: ${error}`);
   }
 });
-
-if (process.argv.length < 4) {
-}
